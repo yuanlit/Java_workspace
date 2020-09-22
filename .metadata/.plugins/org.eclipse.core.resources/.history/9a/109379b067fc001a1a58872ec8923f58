@@ -1,0 +1,9 @@
+package com.tianliyuan.java;
+
+public class ArrayTest {
+	public static void main(String[] args) {
+		// 一维数组的声明
+		int[] ids;
+		ids = new Int[]{1001, 1002, 1003, 1004};
+	}
+}
