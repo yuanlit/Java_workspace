@@ -1,0 +1,5 @@
+package com.tianliyuan.task;
+
+public class ErWeiArray {
+	// 二维数组静态初始化
+}

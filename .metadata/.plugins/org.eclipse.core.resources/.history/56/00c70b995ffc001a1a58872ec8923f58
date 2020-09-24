@@ -1,7 +1,0 @@
-package com.atguigu.concat;
-
-public class HelloWorld {
-	public static void main(String[] args) {
-		
-	}
-}

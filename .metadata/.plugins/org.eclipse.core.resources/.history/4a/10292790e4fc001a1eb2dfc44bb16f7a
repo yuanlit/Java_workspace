@@ -1,0 +1,19 @@
+package com.tianliyuan.task;
+
+import java.util.Scanner;
+
+public class Garde {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("請輸入學生人數：");
+		int classNameNum = scan.nextInt();
+		int maxGrade;
+		while(true) {
+			
+			--classNameNum;
+			if(classNameNum == 0) {
+				break;
+			}
+		}
+	}
+}

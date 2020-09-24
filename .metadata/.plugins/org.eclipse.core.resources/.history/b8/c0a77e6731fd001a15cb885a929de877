@@ -1,0 +1,19 @@
+package com.tianliyuan.task;
+
+public class YangHuiTest {
+	public static void main(String[] args) {
+		// 1.聲明並初始化二維數組
+		int [][] yanghui = new int[10][];
+		// 2.動態賦值
+		for(int i = 0; i < yanghui.length; i++) {
+			yanghui[i] = new int[i + 1];
+			yanghui[i][0] = yanghui[i][i] = 1;
+		}
+		// 3. 遍歷
+		for(int i = 0; i < yanghui.length; i++) {
+			for(int j = 0; j < yanghui[i].length; j++) {
+				System.out.print(yanghui[i][j] + "  ");
+			})
+		}
+	}
+}

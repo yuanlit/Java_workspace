@@ -1,0 +1,16 @@
+package com.tianliyuan.task;
+
+public class bubleSort {
+	int[] list = new int[]{3,534,32,1,3,221,312,423,12,312,3123,123,123, 123, 12};
+	// 冒泡
+	for(int i = 0; i < list.length; i++) {
+		for(int j = 1; j < list.length - i - 1; j ++) {
+			int temp;
+			if(list[i] > list[j]) {
+				temp = list[i];
+				list[i] = list[j];
+				list[j] = temp;
+			}
+		}
+	}
+}

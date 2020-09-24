@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\workspace\java_worksapce\src"/>
+		<item value="D:\workspace\java_worksapce\src\day06"/>
+		<item value="D:\workspace\java_worksapce\src\day01-day05"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 	</section>
 	<section name="ResourceNavigator">

@@ -1,0 +1,41 @@
+package com.tianliyuan.task;
+
+import java.util.Scanner;
+
+public class Garde {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("請輸入學生人數：");
+		int classNameNum = scan.nextInt();
+		int[] gradeList = new int[classNameNum];
+		int maxGrade = 0;
+		System.out.println("请输入" + classNameNum + "个成绩");
+		while(true) {
+			int index = --classNameNum;
+			gradeList[index] = scan.nextInt();
+			if(index == classNameNum - 1) {
+				continue;
+			}
+			if(index < 0) {
+				break;
+			}
+			if (gradeList[index] > gradeList[index - 1]) {
+				maxGrade =  gradeList[index];	
+			}
+		}
+		System.out.println("最高分是：" + maxGrade);
+		char rank;
+		for(int i = 0, len = gradeList.length; i < len; i++) {
+			if(gradeList[i] >= maxGrade -10) {
+				rank = 'A';
+			} else if (gradeList[i] >= maxGrade -20) {
+				rank = 'B';
+			} else if (gradeList[i] >= maxGrade -30) {
+				rank = 'C';
+			} else {
+				rank = 'D';
+			}
+			System.out.println("student" + i + "scoer is" + gradeList[i] + "grade is" + rank);
+		}
+	}
+}
